@@ -263,7 +263,7 @@ footer a {
   }
 
   header nav {
-    float: right;
+    text-align: right;
   }
   .parent {
     list-style-type: none;
@@ -344,5 +344,17 @@ footer a {
   }
   .firstP {
     display: inline;
+  }
+  iframe {
+    display: none;
+  }
+  aside {
+    display: none;
+  }
+  .hideSection {
+    display: none;
+  }
+  footer {
+    display: none;
   }
 }
