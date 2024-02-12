@@ -208,6 +208,8 @@ footer a {
   }
   main article img {
     display: inline;
+    border: 2px solid #009ec4;
+    outline: 2px solid #9e206d;
   }
   main article p strong {
     font-weight: 600;
@@ -232,6 +234,8 @@ footer a {
   }
   main article img {
     display: inline;
+    border: 2px solid #009ec4;
+    outline: 2px solid #9e206d;
   }
   main article h2 {
     font-weight: 600;
@@ -274,7 +278,11 @@ footer a {
   header li {
     display: inline;
   }
-
+  main article img {
+    display: inline;
+    border: 2px solid #009ec4;
+    outline: 2px solid #9e206d;
+  }
   main article h1 {
     font-weight: 500;
   }
