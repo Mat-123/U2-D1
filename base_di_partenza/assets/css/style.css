@@ -301,12 +301,20 @@ footer a {
     width: 100%;
   }
   .flex-child {
-    border: 2px solid yellow;
     flex: 50%;
   }
   .flex-child:first-child {
     margin-right: 0px;
   }
+
+  main article div section {
+    display: flex;
+    flex: 50%;
+  }
+  main article div section {
+    display: block;
+  }
+
   .asideCorrelati {
     display: flex;
     flex-wrap: wrap;
