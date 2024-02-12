@@ -254,25 +254,27 @@ footer a {
   body {
     margin-inline: 5rem;
   }
-  header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  header div {
+    padding-bottom: 1rem;
+  }
+  .parent {
+    list-style-type: none;
+  }
+
+  .child {
+    width: calc(33.33%);
+    float: left;
   }
   header div img {
-    display: inline;
-    justify-content: center;
+    height: 3rem;
+    object-fit: contain;
+    margin: 0;
   }
-  header div p {
+
+  header li {
     display: inline;
-    justify-content: center;
   }
-  header nav ul {
-    display: inline;
-    text-align: right;
-    margin: auto;
-    justify-content: center;
-  }
+
   main article h1 {
     font-weight: 500;
   }
